@@ -1,0 +1,31 @@
+﻿<Window x:Class="Lesson_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="594" Width="407">
+    <Grid Background="Black">
+        <TextBlock Text="0" VerticalAlignment="Top" Height="70" Margin="17,20,20,0" Background="#FFDCD9D9" FontSize="30" FontFamily="Arial" Cursor="IBeam" TextAlignment="Right" FontWeight="SemiBold" TextWrapping="Wrap" />
+        <Button Content="AC" HorizontalAlignment="Left" Height="70" Margin="17,110,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF8B8B8B"/>
+        <Button Content="+-" HorizontalAlignment="Left" Height="70" Margin="112,110,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF8B8B8B"/>
+        <Button Content="%" HorizontalAlignment="Left" Height="70" Margin="207,110,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF8B8B8B"/>
+        <Button Content="7" HorizontalAlignment="Left" Height="70" Margin="17,200,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="8" HorizontalAlignment="Left" Height="70" Margin="112,200,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="9" HorizontalAlignment="Left" Height="70" Margin="207,200,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="4" HorizontalAlignment="Left" Height="70" Margin="17,290,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="5" HorizontalAlignment="Left" Height="70" Margin="112,290,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="6" HorizontalAlignment="Left" Height="70" Margin="207,290,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="1" HorizontalAlignment="Left" Height="70" Margin="17,380,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="2" HorizontalAlignment="Left" Height="70" Margin="112,380,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="3" HorizontalAlignment="Left" Height="70" Margin="207,380,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="0" HorizontalAlignment="Left" Height="70" Margin="17,470,0,0" VerticalAlignment="Top" Width="165" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="," HorizontalAlignment="Left" Height="70" Margin="207,470,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FF3A3A3A" Foreground="White"/>
+        <Button Content="/" HorizontalAlignment="Left" Height="70" Margin="302,110,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FFB46A2C" Foreground="White"/>
+        <Button Content="*" HorizontalAlignment="Left" Height="70" Margin="302,200,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FFB46A2C" Foreground="White"/>
+        <Button Content="-" HorizontalAlignment="Left" Height="70" Margin="302,290,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FFB46A2C" Foreground="White"/>
+        <Button Content="+" HorizontalAlignment="Left" Height="70" Margin="302,380,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FFB46A2C" Foreground="White"/>
+        <Button Content="=" HorizontalAlignment="Left" Height="70" Margin="302,470,0,0" VerticalAlignment="Top" Width="70" FontSize="30" FontFamily="Arial" Background="#FFB46A2C" Foreground="White"/>
+    </Grid>
+</Window>
